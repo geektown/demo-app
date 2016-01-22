@@ -231,6 +231,6 @@ export default class Navigate {
 	setRoutes = (newRoutes) => {
 		// todo deep clone?
 		routes = newRoutes;
-	}
+	};
 
 }

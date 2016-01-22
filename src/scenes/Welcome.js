@@ -17,7 +17,7 @@ export default class Welcome extends Component {
             <View>
                 <Card>
                     <Card.Media
-                        image={<Image source={require('./../img/welcome.jpg')} />}
+                        image={<Image source={{uri: 'http://area.sinaapp.com/bingImg'}}/>}
                         overlay
                     >
                         <Text style={[TYPO.paperFontHeadline, COLOR.paperGrey50]}>Welcome</Text>
