@@ -14,7 +14,7 @@ export default {
         }
     },
 
-    avatars: {
+/*    avatars: {
         title: 'Avatars',
         component: require('./scenes/Avatars').default
     },
@@ -51,7 +51,7 @@ export default {
         title: 'Radio Buttons',
         component: require('./scenes/RadioButtons').default
     },
-
+*/
     subheaders: {
         title: 'Subheaders',
         component: require('./scenes/Subheaders').default

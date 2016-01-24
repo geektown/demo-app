@@ -34,7 +34,7 @@ export default class Navigation extends Component {
                 <Drawer.Header image={<Image source={require('./../img/nav.jpg')} />}>
                     <View style={styles.header}>
                         <Avatar size={80} image={<Image source={{ uri: "http://facebook.github.io/react-native/img/opengraph.png?2" }}/>} />
-                        <Text style={[styles.text, COLOR.paperGrey50, TYPO.paperFontSubhead]}>React Native Material Design</Text>
+                        <Text style={[styles.text, COLOR.paperGrey50, TYPO.paperFontSubhead]}>逼格生活 随手创造</Text>
                     </View>
                 </Drawer.Header>
 
@@ -49,8 +49,8 @@ export default class Navigation extends Component {
                 />
 
                 <Drawer.Section
-                    title="Components"
-                    items={[{
+                    title="广场"
+                    items={[ /*{
                         icon: 'face',
                         value: 'Avatars',
                         label: '12',
@@ -100,7 +100,7 @@ export default class Navigation extends Component {
                      //   active: route === 'list',
                      //   onPress: () => this.changeScene('list'),
                      //   onLongPress: () => this.changeScene('list')
-                     //},
+                     //},*/
                     {
                         icon: 'label',
                         value: 'Subheaders',
@@ -112,10 +112,10 @@ export default class Navigation extends Component {
                 />
                 <Divider style={{ marginTop: 8 }} />
                 <Drawer.Section
-                    title="Config"
+                    title="自定义设置"
                     items={[{
                         icon: 'invert-colors',
-                        value: 'Change Theme',
+                        value: '换个样式',
                         label: '24',
                         active: route === 'themes',
                         onPress: () => this.changeScene('themes'),
