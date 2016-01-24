@@ -8,8 +8,8 @@ export default {
 
         children: {
             example: {
-                // title: 'Child Example', // optional
-                component: require('./scenes/NestedExample').default
+                title: '我的朋友在这里↓↓↓', // optional
+                component: require('./scenes/ListExample').default
             }
         }
     },
