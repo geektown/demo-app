@@ -48,10 +48,11 @@ export default class Welcome extends Component {
 				<ScrollView>
 					<Divider style={{ marginBottom: 36 }} />
 					<View style={styles.avatarContainer}>
+						<Divider style={{ marginLeft: 24 }} />
+						<Avatar image={<Image source={{ uri: 'http://7i7k6m.com1.z0.glb.clouddn.com/wechat.png' }} />} />
 						<Avatar image={<Image source={{ uri: 'http://7i7k6m.com1.z0.glb.clouddn.com/pengyouquan.png' }} />} />
 						<Avatar image={<Image source={{ uri: 'http://7i7k6m.com1.z0.glb.clouddn.com/weibo.png' }} />} />
-						<Avatar image={<Image source={{ uri: 'http://7i7k6m.com1.z0.glb.clouddn.com/qq.png' }} />} />
-						<Avatar image={<Image source={{ uri: 'http://7i7k6m.com1.z0.glb.clouddn.com/titter.png' }} />} />
+						<Divider style={{ marginRight: 24 }} />
 					</View>
                 </ScrollView>
 				
